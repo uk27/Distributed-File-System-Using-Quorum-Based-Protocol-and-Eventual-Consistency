@@ -10,7 +10,7 @@ Vw > V/2
 
 The first rule ensures that a data item is not read and written by two transactions concurrently. Additionally, it ensures that a read quorum contains at least one site with the newest version of the data item. The second rule ensures that two write operations from two transactions cannot occur concurrently on the same data item. The two rules ensure that one-copy serializability is maintained.
 
-This project contains the implementation of Giffor's Quorum protocol. In addition, there is a sync operation that runs as in background thread that ensures eventual consistency of files across all replicas.
+This project contains the implementation of Gifford's Quorum protocol. In addition, there is a sync operation that runs as in background thread that ensures eventual consistency of files across all replicas.
 
 A detailed description of this implementation can be found in  "Design Document.pdf"
 Instructions on how to use can be found in "User Document.pdf"
