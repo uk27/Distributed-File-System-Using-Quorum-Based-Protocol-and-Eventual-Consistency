@@ -28,8 +28,7 @@ thrift --gen java Node.thrift thrift --gen java ActualNode.thrift
 ```
 Compiling the java files:
 ```
-javac -cp .:../jars/libthrift-0.9.3.jar:../jars/slf4j-api-1.7.14.jar:gen-java
-*.java
+javac -cp .:../jars/libthrift-0.9.3.jar:../jars/slf4j-api-1.7.14.jar:gen-java *.java
 ```
 
 To start the Coordinator:
