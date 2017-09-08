@@ -1,4 +1,4 @@
-## Map-Reduce Like Parallel Compute Framework
+## Distributed File System Based on Quorum Protocol
 
 ### Background
 
